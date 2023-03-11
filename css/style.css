@@ -1,0 +1,842 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin-top: 0;
+}
+
+header ul a {
+    text-decoration: none;
+    padding-top: 30px;
+    margin-top: 2px;
+    display: block;
+    color: #010101;
+}
+
+header ul a:hover {
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+    margin-top: 0;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-right: -22px;
+    margin-left: -22px;
+}
+
+.hebergementsetactivites {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+body header {
+    margin: 0 40px 20px 40px; 
+} 
+
+body section {
+    margin: 20px 40px;
+}
+
+img {
+    max-width : 100%;
+    height : auto
+}
+
+header img {
+    width : 100%;
+    height : auto;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+	height:auto;
+    margin-top: 10px;
+}
+
+.economique:hover {
+background-color:  #0065fc;
+}
+
+.familial:hover {
+    background-color: #0065fc; 
+}
+
+.romantique:hover {
+    background-color: #0065fc; 
+}
+
+.animaux:hover {
+    background-color: #0065fc; 
+}
+
+.Hébergements
+{
+    display: flex;
+    justify-content: center;
+    color:#0166fc;
+    font-size: 15px;
+}
+
+.Activités
+{
+    color: grey;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 16px;
+    color: grey;
+}
+
+.localisation {
+    display: flex;
+    justify-content: flex-start;    
+}
+
+.location {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 25% 0 0 25%;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    color: black;
+    background-color: #d9d9d9;
+}
+
+.placeholder {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    text-align: center;
+    align-items: center;
+    padding: 15px 45px 15px 15px;
+}
+
+.textetailledesktop {
+    display:block;
+    display: flex;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    background-color: #0065fc;
+}
+
+.filters {
+    display : flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.filtres {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.filters strong {
+    padding: 0 10px;
+}
+
+.economique {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 75px 75px;
+    text-align: center;
+    align-items: center;
+    padding-right: 12px;
+    margin: 10px;
+}
+
+.materialeconomique {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 50%;
+}
+
+.familial {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 75px 75px;
+    text-align: center;
+    align-items: center;
+    padding-right: 12px;
+    margin: 10px;
+}
+
+.materialfamilial {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 50%;
+}
+
+.romantique {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 75px 75px;
+    text-align: center;
+    align-items: center;
+    padding-right: 12px;
+    margin: 10px;
+}
+
+.materialromantique {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 50%;
+}
+
+.animaux {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 75px 75px;
+    text-align: center;
+    align-items: center;
+    padding-right: 12px;
+    margin: 10px;
+}
+
+.materialanimaux {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065fc;
+    background-color: #deebff;
+    border-radius: 50%;
+}
+
+h5 .fa-solid {
+    width: 20px;
+    height: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    color: #0065fc;
+    margin-right: 10px;
+}
+
+h5 {  
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.hebergementsetpopulaire {
+   display: flex;
+   
+}
+
+.hebergementsetpopulaire ul li {
+    list-style-type: none;
+    font-size: 80%;
+    padding: 2px;
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.hebergementsamarseille {
+    flex-wrap: wrap;
+    background-color: #e3e0e0;
+    border-radius: 25px 25px;
+    margin: 0px 20px 20px 0px;
+    flex: 65% 0 0;
+}
+
+.hebergement-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-between;
+    align-items: flex-start;
+    margin-left: 35px;
+    margin-right: 35px;
+  
+}
+
+.hebergement-items {
+    display: flex;
+    border-radius: 25px 25px;
+    padding: 2%;
+}
+
+.hebergement-container figure {
+    display: flex;
+    background-color: white;
+    border-radius: 25px 25px;
+    margin: 10px 10px 10px 10px;
+}
+
+.hebergementsamarseille img {
+    width: 220px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.hebergementsetpopulaire figure ul {
+    padding-inline-start: 2px;
+    margin: 7px;
+}
+
+.populaires strong {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.populaires {
+    display : flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-color: #e3e0e0;
+    border-radius: 25px 25px;
+    margin: 20px 0 20px 20px 20px;
+}
+
+.populaire-items {
+    display: flex;
+    border-radius: 25px 25px;
+    padding: 2%;
+}
+
+.populaire-container figure {
+    background-color: white;
+    border-radius: 25px 25px;
+    flex-direction: row;
+    margin: 0px 30px 30px 30px;
+}
+
+.populaires img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 25px 0px 0px 25px;   
+}
+
+.hebergementsamarseille .activity {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+}
+
+.activity-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 20px 0px 0 0px;
+}
+
+.activity-solo figure, .activity-solo figure div {
+    border-radius: 25px 25px;
+    box-shadow: 1px 1px 33px grey;
+    margin: 30px 0 30px 0;
+}
+
+.hebergement-container figure {
+    box-shadow: 1px 1px 33px grey;
+}
+
+.activity-solo img, .activity-duo img {
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.activity-duo figure {
+    margin: 40px 0px 40px 50px;
+}
+
+.activity-solo img {
+    width: 450px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.activity-duo img {
+    width: 450px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.activity-duo .duo1 {
+    margin-right: 50px;
+}
+
+.activity-duo .duo2 {
+    margin-right: 50px;
+}
+
+.activity-duo .duo1 img {
+    width: 450px;
+    height: 170px;
+    object-fit: cover;
+}
+
+.activity-duo .duo2 img {
+    width: 450px;
+    height: 110px;
+    object-fit: cover;
+}
+
+.activity-duo figure, .activity-duo figure div {
+    height: 45%;
+    border-radius: 25px 25px;
+    box-shadow: 1px 1px 33px grey;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+}
+
+.hebergementsetpopulaire ul .stars li {
+    margin-top: 57px;
+}
+
+.populaires .stars li {
+    margin-top: 25%;
+}
+
+.hebergementsetpopulaire img {
+    max-width: 250px;
+    max-height: fit-content;
+}
+
+.afficher {
+    font-size: 25px;
+    margin: 30px 0 20px 0px;
+    font-weight: 600;
+}
+
+.activity figure figcaption {
+    padding: 10px;
+}
+
+.assistance {
+    display: flex;
+    flex-wrap: wrap;
+    align-items : flex-start;
+}
+
+.apropos {
+    padding: 20px 130px 20px 10px;
+}
+
+.noshebergements {
+    padding: 20px 50px 20px 50px;
+}
+
+.assist {
+    padding: 20px 100px 20px 150px;
+}
+
+h6 {    
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    padding: 3px;
+}
+
+.textetaillemobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    h2 {
+        margin: 20px;
+    }
+
+    .filters {
+        margin: 20px;
+    }
+
+    h3 {
+        margin: 20px;
+    }
+
+    h5 {
+        margin: 20px;
+    }
+
+    .assist, .noshebergements {
+        padding: 20px 130px 20px 10px;
+    }
+
+    .hebergement-container {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .hebergement-items{
+        width: 400px;
+    }
+
+    .hebergement-items img {
+        max-width: 600px;
+    }
+
+    .hebergementsamarseille img {
+        width: 386px;
+    }
+
+    .hebergementsamarseille{
+        margin: 0;
+    }
+
+    header {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header ul  {
+        padding-bottom: 15px;
+        padding-top: 30px;
+        padding: 0 100% 15px 100%;
+        margin-top: 2px;
+        display: block;
+        border-bottom: 4px solid #d5dbdf;
+    }
+/*
+    header ul:hover {
+        padding-bottom: 15px;
+        padding-top: 30px;
+        padding: 0 100% 15px 100%;
+        border-top: white;
+        margin-top: white;
+        border-bottom: 4px solid #0065fc;
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+*/    
+    header ul a {
+        padding-bottom: 15px;
+        padding-top: 30px;
+        text-decoration: none;
+        margin-top: 2px;
+        display: block;
+        color: #010101;
+        margin-bottom: 0px;
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    header ul a:hover {
+        
+        padding-bottom: 15px;
+        padding-top: 30px;
+        color: #0065fc;
+        text-decoration: none;
+        border-bottom: 4px solid #0065fc;
+        display: block;
+        border-top: 2px solid white;
+        margin-top: 0px;
+        margin-bottom: -4px;
+        padding-left: 55px;
+        padding-right: 55px;
+        margin-right: -55px;
+        margin-left: -55px;
+    }
+
+    .activity-container, .hebergementsetpopulaire {
+        display: flex;
+        justify-content : space-between 
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .activity-duo .duo2 img {
+        width: 390px;
+        height: 140px;
+        margin-left: 0px;
+    }
+
+    .activity-duo .duo1 img {
+        width: 390px;
+        height: 140px;
+        margin-left: 0px;
+    }
+
+    .activity-duo .duo3 img {
+        width: 390px;
+        height: 140px;
+        margin-left: 0px;
+    }
+
+    .activity-duo .duo4 img {
+        width: 350px;
+        height: 140px;
+        margin-left: 0px;
+    }
+
+    .activity {
+        align-items: flex-start;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .activity-solo img {
+        width: 390px;
+        height: 140px;
+    }
+
+    .activity-duo img {
+        width: 390px;
+        height: 140px;
+    }
+
+    .activity-duo figure {
+        margin : 30px 0 30px 0;
+    }
+
+    .activity-solo figure {
+        margin: 30px 0 30px 0;
+    }
+
+    .activity {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-duo .duo1, .duo2 {
+        margin-left: 50px;
+        width: 390px;
+    }
+
+    .activity h6 {
+        display: flex;
+        margin-left: -200px;
+    }
+
+    .activity-duo .duo4 figure img {
+        width: 100% ;
+        object-fit: cover;
+    }
+
+    .hebergementsetpopulaire {
+        margin: 0px;
+        width: 100%;
+        background-color: #e3e0e0;
+        border-radius: 0%;
+    }
+
+    .hebergementsetpopulaire .populaires{
+        width: 100%;
+        border-radius: 0%;
+    }
+
+    .hebergementsamarseille {
+        background-color: white;
+        border-radius: 0%;
+    }
+
+    .populaire-container .figure{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .figure {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    body section {
+        margin: 20px 0px;
+    }
+
+    .hebergementsamarseille figure {
+        margin: 20px 20px 20px 20px;
+    }
+
+    header img {
+        max-width : 200px;
+        height : auto
+    }
+
+    header img {
+        width: 150px;
+        margin-top: 15px;
+    }
+
+    h2 {
+        font-size: 200%;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 80px;
+        font-weight: 400;
+    }
+
+    h3 {
+        margin-left: 30px;
+        font-size: 145%;
+    }
+
+    .Hebergements ul{
+        margin-left: 0px;
+
+    }
+   
+    header ul {
+        font-size: 150%;
+        font-weight: 300;
+        margin: 0px;
+        padding: 0 75px 0 70px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+    }        
+   
+    .hebergementsetpopulaire ul li {
+        font-size: 100%;
+    }
+
+    .populaires .stars li {
+        margin-top: 15%;
+    }
+
+    .textetaillemobile {
+        display:block;
+        display:none;
+        display: flex;
+        border-radius: 0 15px 15px 0;
+        text-align: center;
+        align-items: center;
+        padding: 25px;
+        color: white;
+        background-color: #0065fc;
+        text-decoration: none;
+    }
+
+    .textetaillemobile a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .textetailledesktop {
+        display:none;
+    }
+
+    .location {
+        display: flex;
+        justify-content: center;
+        border: 1px solid #d9d9d9;
+        border-radius: 25% 0 0 25%;
+        text-align: center;
+        align-items: center;
+        padding: 25px;
+        color: black;
+        background-color: #d9d9d9;
+    }
+    
+    .localisation {
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .placeholder {
+        display: flex;
+        border: 1px solid #d9d9d9;
+        text-align: center;
+        align-items: center;
+        padding: 15px 135px 15px 25px;
+    }
+
+    .economique{
+        white-space: pre-wrap;
+    }
+
+    .hebergement-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-left: 0px;
+      
+    }
+
+}
+
